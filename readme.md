@@ -1,6 +1,6 @@
-# Project Matrixx – Markdown Renderer
+# EuclidOS – Markdown Renderer
 
-- **A** lightweight, serverless Markdown viewer used by **Project Matrixx** to render device-specific documentation and changelogs directly from GitHub
+- **A** lightweight, serverless Markdown viewer used by **EuclidOS** to render device-specific documentation and changelogs directly from GitHub
 - **This** tool lets us display **.md** files independently of the main website, especially when we need clean, readable device-specific pages
 
 ---
@@ -24,7 +24,7 @@
 - **The** viewer fetches a remote Markdown file (like a ROM changelog or device guide) and renders it into readable HTML in the browser
 - **Viewer usage example:**
 ```bash
-https://install.projectmatrixx.org/?url=https://raw.githubusercontent.com/user/repo/branch/markdown.md
+https://docs.euclidos.org/?url=https://raw.githubusercontent.com/user/repo/branch/markdown.md
 ```
 - **Just** replace the value of **url=** with any public raw Markdown link from GitHub
 
@@ -35,19 +35,19 @@ https://install.projectmatrixx.org/?url=https://raw.githubusercontent.com/user/r
 ### **1. Open the Viewer**
 
 ```bash
-https://install.projectmatrixx.org/?url=<RAW_MARKDOWN_URL>
+https://docs.euclidos.org/?url=<RAW_MARKDOWN_URL>
 ```
 - **Example:**
 
 ```bash
-https://install.projectmatrixx.org/?url=https://raw.githubusercontent.com/Matrixx-Devices/android_vendor_MatrixxOTA/refs/heads/16.0/changelogs/source_changelog.md
+https://docs.euclidos.org/?url=https://raw.githubusercontent.com/euclid-Devices/markdown-renderer/main/readme.md
 ```
 
 ### **2. Embed in Any Website**
 
 ```html
 <iframe 
-  src="https://install.projectmatrixx.org/?url=RAW_MARKDOWN_URL"
+  src="https://docs.euclidos.org/?url=RAW_MARKDOWN_URL"
   style="width:100%;height:600px;border:none;">
 </iframe>
 ```
@@ -69,7 +69,7 @@ markdown-renderer/
 
 ## Why This Exists
 
-- **Project Matrixx** maintains device-specific documentation and changelogs in GitHub repositories
+- **EuclidOS** maintains device-specific documentation and changelogs in GitHub repositories
 - **Raw Markdown** files are not user-friendly, so this viewer provides:
   - Clean, readable rendered output
   - A standalone docs viewer independent of the main site
